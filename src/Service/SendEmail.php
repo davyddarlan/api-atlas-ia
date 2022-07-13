@@ -20,10 +20,10 @@ class SendEmail
     {
         $this->email->SMTPDebug  = SMTP::DEBUG_SERVER;
         $this->email->isSMTP();
-        $this->email->Host       = 'mail.atlas-ia.com';
+        $this->email->Host       = '';
         $this->email->SMTPAuth   = true;
-        $this->email->Username   = 'teste@atlas-ia.com';
-        $this->email->Password   = '123456789';
+        $this->email->Username   = '';
+        $this->email->Password   = '';
         $this->email->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $this->email->Port       = 465;    
     }
