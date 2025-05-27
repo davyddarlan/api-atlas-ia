@@ -8,4 +8,6 @@
 /var/
 /vendor/
 /storage/multimidia/*
+.env
+
 ###< symfony/framework-bundle ###
